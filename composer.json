@@ -1,0 +1,16 @@
+{
+  "name":"all9lives/Magebuzz_ProductQuestion",
+  "type":"magento-module",
+  "license":"OSL-3.0",
+  "homepage":"https://github.com/all9lives/Magebuzz_ProductQuestion",
+  "description":"Allows customers to create questions for products. Show questions and answers on product page. http://productquestionmagentoextension-mb.blogspot.com.au/",
+  "authors":[
+    {
+      "name":"Magebuzz",
+      "email":"team@magebuzz.com"
+    }
+  ],
+  "require":{
+    "magento-hackathon/magento-composer-installer":"*"
+  }
+}

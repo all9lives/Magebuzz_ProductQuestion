@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<package>
+    <name>magebuzz-product-question</name>
+    <version>0.1.6</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Magento Product Questions</summary>
+    <description>Allows customers to create questions for products. Show questions and answers on product page. &#xD;
+</description>
+<notes>- Update SUPEE-6788&#xD;
+- Convert to free extension</notes>
+<authors>
+    <author>
+        <name>Magebuzz</name>
+        <user>magebuzz</user>
+        <email>magebuzz@gmail.com</email>
+    </author>
+</authors>
+<date>2016-02-05</date>
+<time>08:15:48</time>
+<contents>
+    <target name="magelocal">
+        <dir name="Magebuzz">
+            <dir name="Productquestion">
+                <dir name="Block">
+                    <dir name="Adminhtml">
+                        <dir name="Catalog">
+                            <dir name="Product">
+                                <dir name="Edit">
+                                    <dir name="Tab">
+                                        <file name="Question.php" hash="0b0de73c9432cc9cdd7829bb5177c235"/>
+                                    </dir>
+                                    <file name="Tabs.php" hash="ff3781ea6a01b6abcd3c0d551b77f999"/>
+                                </dir>
+                            </dir>
+                        </dir>
+                        <dir name="Productquestion">
+                            <dir name="Edit">
+                                <file name="Form.php" hash="c8d2491537d7bd1d526cdcd1f970a2f9"/>
+                                <dir name="Tab">
+                                    <file name="Form.php" hash="277878ed83a4d4784b99e4674774360e"/>
+                                    <file name="Product.php" hash="07b2ba51fd460d61800d373158d43b2e"/>
+                                </dir>
+                                <file name="Tabs.php" hash="94a5c4bfb375f095ac65e561b2b988ec"/>
+                            </dir>
+                            <file name="Edit.php" hash="8aabceedd90cfdba2e736e2ba5391de4"/>
+                            <file name="Grid.php" hash="6265b72442ca489616f09cafc3994e58"/>
+                        </dir>
+                        <file name="Productquestion.php" hash="973919f650f532d5932e85a58521840a"/>
+                        <dir name="Renderer">
+                            <file name="Productname.php" hash="811efea8f783d69a99e35d37936e808a"/>
+                        </dir>
+                    </dir>
+                    <file name="Captcha.php" hash="0a4ae49916d9da5cf76f5d5ab79313eb"/>
+                    <file name="Productquestion.php" hash="58b8906ac67f0462e8c403a6ec02e07f"/>
+                    <file name="Productquestionoutpage.php" hash="66757d5004e45c573e5014e1994cbf28"/>
+                </dir>
+                <dir name="Helper">
+                    <file name="Data.php" hash="932c7d8c22400244e8cfad5affb1d524"/>
+                </dir>
+                <dir name="Model">
+                    <dir name="Mysql4">
+                        <dir name="Productquestion">
+                            <file name="Collection.php" hash="a618e87318a28d78ca2375b4a7845f19"/>
+                        </dir>
+                        <file name="Productquestion.php" hash="63bf0581417e3d3c5ead1106abfd0b85"/>
+                        <dir name="Productquestionproduct">
+                            <file name="Collection.php" hash="5354315e6144847ff54191db842d80e2"/>
+                        </dir>
+                        <file name="Productquestionproduct.php" hash="85281d33154a957792c09b06d6fbc1a2"/>
+                        <dir name="Productquestionstore">
+                            <file name="Collection.php" hash="2a518d0a26c97548d22904394c1d745f"/>
+                        </dir>
+                        <file name="Productquestionstore.php" hash="f1a6f692963365f7e2b711dc1249ac70"/>
+                    </dir>
+                    <file name="Productquestion.php" hash="b81263c07706d45a468a3349da27c1aa"/>
+                    <file name="Productquestionproduct.php" hash="db10b01435767f4e67871bc2a5b3911a"/>
+                    <file name="Productquestionstore.php" hash="7050176bc73722d2d4936106b94d65bf"/>
+                    <file name="Session.php" hash="908da8a0d55f20f69179e4fae0a127db"/>
+                    <file name="Status.php" hash="9eaa2e8b3d98dae075f55b330486b5db"/>
+                    <dir name="System">
+                        <dir name="Config">
+                            <dir name="Source">
+                                <dir name="Dropdown">
+                                    <file name="Lang.php" hash="46e2e1620aefa3b80b18d54ffe18d011"/>
+                                    <file name="Theme.php" hash="2214050d293c9c064f4405fc0a195e82"/>
+                                </dir>
+                            </dir>
+                        </dir>
+                    </dir>
+                </dir>
+                <dir name="controllers">
+                    <dir name="Adminhtml">
+                        <file name="ProductquestionController.php" hash="7afef607e2c24890b0491c283f5c32e5"/>
+                    </dir>
+                    <file name="IndexController.php" hash="41d800d7afb01df3f0c8e279de099730"/>
+                </dir>
+                <dir name="etc">
+                    <file name="adminhtml.xml" hash="f68d2e28ffc5271bd10b1a28b15aa6fd"/>
+                    <file name="config.xml" hash="359e290e4c4d0d08f5c830cb082c029c"/>
+                    <file name="system.xml" hash="32ea3232f182ba75b9145960dfb2dbd7"/>
+                </dir>
+                <dir name="sql">
+                    <dir name="productquestion_setup">
+                        <file name="mysql4-install-0.1.0.php" hash="1e6f7327291ec22b63d3b1cae07926cb"/>
+                        <file name="mysql4-upgrade-0.1.0-0.1.1.php" hash="c24587db8a5611be57be31cfa08544ad"/>
+                        <file name="mysql4-upgrade-0.1.3-0.1.4.php" hash="d2186c6f7f72d8d5a11c8efb42d375dc"/>
+                    </dir>
+                </dir>
+            </dir>
+        </dir>
+    </target>
+    <target name="magedesign">
+        <dir name="frontend">
+            <dir name="base">
+                <dir name="default">
+                    <dir name="layout">
+                        <file name="productquestion.xml" hash="d1d6864fe26dffaa9be13eeebf2b65ed"/>
+                    </dir>
+                    <dir name="template">
+                        <dir name="productquestion">
+                            <file name="checkinpage.phtml" hash="d7c57e504e3edb6ed4bcc55658c81168"/>
+                            <file name="link.phtml" hash="3fe0aa4973745cca780274d1c3269d94"/>
+                            <file name="questioninpage.phtml" hash="612fccb860c9a4210258fb02f457381f"/>
+                            <file name="questionoutpage.phtml" hash="45c936115f32699415b12e70d3c1fd79"/>
+                        </dir>
+                    </dir>
+                </dir>
+            </dir>
+        </dir>
+        <dir name="adminhtml">
+            <dir name="default">
+                <dir name="default">
+                    <dir name="layout">
+                        <file name="productquestion.xml" hash="8207c95dbc759b87af7bcaf43dc4b2eb"/>
+                    </dir>
+                    <dir name="template">
+                        <dir name="productquestion">
+                            <dir name="catalog">
+                                <dir name="product">
+                                    <dir name="edit">
+                                        <file name="question.phtml" hash="46afbe43d770e2a0f30b16a17e80b19c"/>
+                                    </dir>
+                                </dir>
+                            </dir>
+                        </dir>
+                    </dir>
+                </dir>
+            </dir>
+        </dir>
+    </target>
+    <target name="magelocale">
+        <dir name="en_US">
+            <file name="Magebuzz_Productquestion.csv" hash="ebc7b55a5079075f516fca60c9a53036"/>
+            <dir name="template">
+                <dir name="email">
+                    <dir name="productquestion">
+                        <file name="new_question_confirmation.html" hash="23f8bb1ede7841a619e423c667ff6787"/>
+                        <file name="new_question_notification.html" hash="3f700a50d89be720c4bda8a51ed36c33"/>
+                        <file name="new_reply_notification.html" hash="3bd7347e92e6d56f28ea6053c9a0f5a8"/>
+                    </dir>
+                </dir>
+            </dir>
+        </dir>
+    </target>
+    <target name="mageetc">
+        <dir name="modules">
+            <file name="Magebuzz_Productquestion.xml" hash="69a0a704f484f30f6f5bea2d72f23ca6"/>
+        </dir>
+    </target>
+    <target name="magelib">
+        <dir name="reCaptcha">
+            <file name="recaptchalib.php" hash="4e3f9cad8c639f0923b0ef54f32145fa"/>
+        </dir>
+    </target>
+    <target name="mageskin">
+        <dir name="frontend">
+            <dir name="base">
+                <dir name="default">
+                    <dir name="magebuzz">
+                        <dir name="productquestion">
+                            <dir name="css">
+                                <file name="productquestion.css" hash="1819ac736723f795e5459e74026ce9b5"/>
+                            </dir>
+                            <dir name="images">
+                                <file name="Thumbs.db" hash="d09c2ae475dc318756a2925efd03ee0f"/>
+                                <file name="bkg_block-layered-dt.gif" hash="ba8229068657b80f2c42111c5a1a307e"/>
+                                <file name="bkg_block-layered-label.gif" hash="14687dfa3921cfd12d2149c1497d9765"/>
+                                <file name="bullet.png" hash="b84409666190ec9e5d7016a0dca3aa35"/>
+                                <file name="refresh.png" hash="1f7a435f2a3a0a1be324239536e270d8"/>
+                                <file name="votedown.png" hash="b6cb67a98f9711484068f0d280d86934"/>
+                                <file name="voteup.png" hash="db2cad28b0893f530b3d328eacc6d052"/>
+                            </dir>
+                        </dir>
+                    </dir>
+                </dir>
+            </dir>
+        </dir>
+        <dir name="adminhtml">
+            <dir name="default">
+                <dir name="default">
+                    <dir name="magebuzz">
+                        <dir name="productquestion">
+                            <dir name="images">
+                                <file name="Thumbs.db" hash="d09c2ae475dc318756a2925efd03ee0f"/>
+                                <file name="bkg_block-layered-dt.gif" hash="ba8229068657b80f2c42111c5a1a307e"/>
+                                <file name="bkg_block-layered-label.gif" hash="14687dfa3921cfd12d2149c1497d9765"/>
+                                <file name="bullet.png" hash="b84409666190ec9e5d7016a0dca3aa35"/>
+                                <file name="refresh.png" hash="1f7a435f2a3a0a1be324239536e270d8"/>
+                            </dir>
+                            <file name="productquestion.css" hash="ad7b7169349d1b135921e58f7a6ee0db"/>
+                        </dir>
+                    </dir>
+                </dir>
+            </dir>
+        </dir>
+    </target>
+</contents>
+<compatible/>
+<dependencies>
+    <required>
+        <php>
+            <min>5.1.0</min>
+            <max>6.0.0</max>
+        </php>
+    </required>
+</dependencies>
+</package>
+  
