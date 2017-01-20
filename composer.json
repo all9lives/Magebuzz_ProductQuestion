@@ -7,10 +7,58 @@
   "authors":[
     {
       "name":"Magebuzz",
-      "email":"team@magebuzz.com"
+      "email":"magebuzz@gmail.com"
     }
   ],
   "require":{
     "magento-hackathon/magento-composer-installer":"*"
-  }
+  },
+  "extra": {
+        "map": [
+            [
+                "app/code/local/Magebuzz/Productquestion/",
+                "app/code/local/Magebuzz/Productquestion/"
+            ],
+            [
+                "app/design/adminhtml/default/default/layout/productquestion.xml",
+                "app/design/adminhtml/default/default/layout/productquestion.xml"
+            ],
+            [
+                "app/design/adminhtml/default/default/template/productquestion/catalog/product/edit/",
+                "app/design/adminhtml/default/default/template/productquestion/catalog/product/edit/"
+            ],
+            [
+                "app/design/frontend/base/default/layout/productquestion.xml",
+                "app/design/frontend/base/default/layout/productquestion.xml"
+            ],
+            [
+                "app/design/frontend/base/default/template/productquestion/",
+                "app/design/frontend/base/default/template/productquestion/"
+            ],
+            [
+                "app/etc/modules/Magebuzz_Productquestion.xml",
+                "app/etc/modules/Magebuzz_Productquestion.xml"
+            ],
+            [
+                "app/locale/en_US/template/email/productquestion/",
+                "app/locale/en_US/template/email/productquestion/"
+            ],
+            [
+                "app/locale/en_US/Magebuzz_Productquestion.csv",
+                "app/locale/en_US/Magebuzz_Productquestion.csv"
+            ],
+            [
+                "lib/reCaptcha/",
+                "lib/reCaptcha/"
+            ],
+            [
+                "skin/adminhtml/default/default/magebuzz/productquestion/",
+                "skin/adminhtml/default/default/magebuzz/productquestion/"
+            ],
+            [
+                "skin/frontend/base/default/magebuzz/productquestion/",
+                "skin/frontend/base/default/magebuzz/productquestion/"
+            ]
+        ]
+    }
 }
